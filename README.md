@@ -1,2 +1,1 @@
-# web-dev-tools
-Browser based Dev Tools
+# Browser based Dev Tools
