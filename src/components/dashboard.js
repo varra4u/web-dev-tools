@@ -120,7 +120,7 @@ class Dashboard extends Component{
               </div>
               <div className="con">
                   <aside>
-                      <Story storyName={this.state.stories.filter(i=>i.id===this.props.router.params.id)} storyType={this.props.params.id} tasks={this.state.tasks} loading={this.state.loading}/>
+                      <Story storyName={this.state.stories && this.state.stories.filter(i=>i.id===this.props.router.params.id)} storyType={this.props.params.id} tasks={this.state.tasks} loading={this.state.loading}/>
                   </aside>
 
               </div>
