@@ -3,7 +3,7 @@ import moment from 'moment'
 import ModalExampleDimmer from './modal'
 import axios from 'axios'
 import $ from 'jquery'
-import 'jquery-ui-dist/jquery-ui';
+// import 'jquery-ui-dist/jquery-ui';
 import Loader from './loader';
 
 class Task extends Component{
